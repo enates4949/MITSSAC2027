@@ -64,7 +64,10 @@ tighter synchronization.
   respective windows, runs the elite-vs-junior group comparison, and
   produces all figures. Fully self-contained and runnable as-is:
   ```
-  Rscript rel_timing_simulated_mixed_window.R
+  Rscript Nates_SSAC_rel_timing.R
+
+  - Will need to install:
+  install.packages(c("signal", "fdasrvf"))
 
 
 ## How the simulated data was made
@@ -91,7 +94,7 @@ athletes.
 non-public athlete data, even after de-identification) -- it documents
 and verifies the generation method, it is not meant to be re-executed.
 `Nates_SSAC_rel_timing.R`
-has no such dependency and run standalone against the included
+has no such dependency and runs standalone against the included
 `data_simulated/`.
 
 ## Interpreting the results here
