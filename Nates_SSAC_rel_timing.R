@@ -14,7 +14,7 @@
 # RMS-based synchrony magnitude, log-scale Welch/Wilcoxon/Hedges' g group
 # comparison) is otherwise identical to rel_timing_simulated.R.
 #
-# Output goes to mixed_window/ (figures/ and results/ subfolders)
+# Output goes to figures/ and results/ subfolders
 
 # ---------------------------------------------------------------------------
 # Paths
