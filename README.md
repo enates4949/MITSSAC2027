@@ -62,12 +62,13 @@ tighter synchronization.
 - **`Nates_SSAC_rel_timing.R`** -- the analysis: loads
   `data_simulated/`, computes CRP and warping for both signals over their
   respective windows, runs the elite-vs-junior group comparison, and
-  produces all figures. Fully self-contained and runnable as-is:
+  produces all figures. Requires the 'signal' and 'fdasrvf' packages:
+  install.packages(c("signal", "fdasrvf"))
+
+  Fully self-contained and runnable as-is:
   ```
   Rscript Nates_SSAC_rel_timing.R
 
-  - Will need to install:
-  install.packages(c("signal", "fdasrvf"))
 
 
 ## How the simulated data was made
