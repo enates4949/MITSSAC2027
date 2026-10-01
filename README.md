@@ -59,7 +59,7 @@ tighter synchronization.
   **Reproducibility**).
 - **`data_simulated/{elite,junior}/`** -- 25 + 25 synthetic single-scull
   athletes, 20 analyzable strokes each, ~30 strokes/min.
-- **`rel_timing_simulated_mixed_window.R`** -- the analysis: loads
+- **`Nates_SSAC_rel_timing.R`** -- the analysis: loads
   `data_simulated/`, computes CRP and warping for both signals over their
   respective windows, runs the elite-vs-junior group comparison, and
   produces all figures. Fully self-contained and runnable as-is:
@@ -90,8 +90,8 @@ athletes.
 `data_deidentified/` folder that is **not included** here (real,
 non-public athlete data, even after de-identification) -- it documents
 and verifies the generation method, it is not meant to be re-executed.
-`rel_timing_simulated_mixed_window.R` and `plot_group_mean_offset_mixed_window.R`
-have no such dependency and run standalone against the included
+`Nates_SSAC_rel_timing.R`
+has no such dependency and run standalone against the included
 `data_simulated/`.
 
 ## Interpreting the results here
